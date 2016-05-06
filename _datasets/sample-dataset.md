@@ -13,8 +13,8 @@ resources:
   - name: Air Monitoring Stations GeoService
     url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
     format: api
-    description: Esri Geoservice to interact programmatically with the data
-category: Poverty
-maintainer: Tim Wisniewski
-maintainer_email: tim@timwis.com
+category:
+  - Poverty
+maintainer: John Jediny
+maintainer_email: john.jediny@gsa.gov
 ---
