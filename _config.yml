@@ -6,7 +6,7 @@ branch: gh-pages
 logo: /img/jkan.png
 
 # Site theme
-theme: cyborg
+theme: Spacelab
 
 # Authentication
 github_client_id: 95187e426b25c012a339
