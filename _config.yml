@@ -46,8 +46,8 @@ navigation:
     url: /dashboard/
   - title: Organizations
     url: /organizations/
-  - title: Map
-    url: /map
+#  - title: Map
+#    url: /map
 
 # Collections
 collections:
