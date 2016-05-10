@@ -1,12 +1,12 @@
-title: JKAN
-greeting: Welcome to JKAN
-description: A lightweight, backend-free open data portal, powered by Jekyll.
+title: SDG Dashboard
+greeting: SDG Dashboard
+description: Welcome to the Sustainable Development Goal (SDG) Dashboard Prototype <b>BETA</b>
 baseurl: /jkan
 branch: gh-pages
 logo: /img/jkan.png
 
 # Site theme
-theme: Default
+theme: cyborg
 
 # Authentication
 github_client_id: 95187e426b25c012a339
@@ -46,6 +46,8 @@ navigation:
     url: /dashboard/
   - title: Organizations
     url: /organizations/
+  - title: Map
+    url: /map
 
 # Collections
 collections:
@@ -60,6 +62,9 @@ collections:
     output: true
     permalink: /dashboard/:path/
     layout: dashboard
+  map:
+    output: true
+    permalink: /map/index.html
 
 # jekyll_get allows for you to get and store a remote json file
 #jekyll_get:
