@@ -62,9 +62,9 @@ collections:
     output: true
     permalink: /dashboard/:path/
     layout: dashboard
-  map:
-    output: true
-    permalink: /map/index.html
+#  map:
+#    output: true
+#    permalink: /map/index.html
 
 # jekyll_get allows for you to get and store a remote json file
 #jekyll_get:
