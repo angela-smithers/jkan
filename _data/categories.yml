@@ -1,86 +1,86 @@
 ---
 - goal: 1
-  title: Poverty
+  name: Poverty
   logo_credit: End poverty in all its forms everywhere
   logo: /img/goals/1.png
   featured: true
 - goal: 2
-  title: Hunger
+  name: Hunger
   logo_credit: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
   logo: /img/goals/2.png
   featured: true
 - goal: 3
-  title: Health
+  name: Health
   logo_credit: Ensure healthy lives and promote well-being for all at all ages
   logo: /img/goals/3.png
   featured: true
 - goal: 4
-  title: Education
+  name: Education
   logo_credit: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
   logo: /img/goals/4.png
   featured: true
 - goal: 5
-  title: Equality
+  name: Equality
   logo_credit: Achieve gender equality and empower all women and girls
   logo: /img/goals/5.png
   featured: true
 - goal: 6
-  title: Water
+  name: Water
   logo_credit: Ensure availability and sustainable management of water and sanitation for all
   logo: /img/goals/6.png
   featured: true
 - goal: 7
-  title: Energy
+  name: Energy
   logo_credit: Ensure access to affordable, reliable, sustainable and modern energy for all
   logo: /img/goals/7.png
   featured: true
 - goal: 8
-  title: Economy
+  name: Economy
   logo_credit: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
   logo: /img/goals/8.png
   featured: true
 - goal: 9
-  title: Infrastructure
+  name: Infrastructure
   logo_credit: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
   logo: /img/goals/9.png
   featured: true
 - goal: 10
-  title: Inequality
+  name: Inequality
   logo_credit: Reduce inequality within and among countries
   logo: /img/goals/10.png
   featured: true
 - goal: 11
-  title: Settlements
+  name: Settlements
   logo_credit: Make cities and human settlements inclusive, safe, resilient and sustainable
   logo: /img/goals/11.png
   featured: true
 - goal: 12
-  title: Consumption
+  name: Consumption
   logo_credit: Ensure sustainable consumption and production patterns
   logo: /img/goals/12.png
   featured: true
 - goal: 13
-  title: Climate
+  name: Climate
   logo_credit: Take urgent action to combat climate change and its impacts
   logo: /img/goals/13.png
   featured: true
 - goal: 14
-  title: Oceans
+  name: Oceans
   logo_credit: Conserve and sustainably use the oceans, seas and marine resources for sustainable development
   logo: /img/goals/14.png
   featured: true
 - goal: 15
-  title: Ecosystems
+  name: Ecosystems
   logo_credit: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
   logo: /img/goals/15.png
   featured: true
 - goal: 16
-  title: Society
+  name: Society
   logo_credit: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
   logo: /img/goals/16.png
   featured: true
 - goal: 17
-  title: Partnerships
+  name: Partnerships
   logo_credit: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
   logo: /img/goals/17.png
   featured: true
