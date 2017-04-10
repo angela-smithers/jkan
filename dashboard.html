@@ -102,11 +102,13 @@ permalink: /dashboard/
   </div>
   <div class="media-body">
       <div class="usa-width-one-third">reported status </div><div class="usa-width-one-third">statistics in progress </div><div class="usa-width-one-third">exploring data sources </div>
-    <div class="progress">
+    <div class="usa-width-one-whole">
+      <div class="progress">
       {{ site.data.bootstrap.progress_done }}{{ dones_percent }}{{ site.data.bootstrap.progress_end}}
       {{ site.data.bootstrap.progress_doing }}{{ doings_percent }}{{ site.data.bootstrap.progress_end }}
       {{ site.data.bootstrap.progress_todo }}{{ todos_percent }}{{ site.data.bootstrap.progress_end }}
     </div>
+      </div>
   </div>
 </div>
 {% endfor %}
