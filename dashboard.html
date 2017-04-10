@@ -43,7 +43,7 @@ permalink: /dashboard/
       </button>
       <div id="amendment-b-1" class="usa-accordion-content">
  <div class="media usa-grid-full">
-   <div class="usa-width-one-fourth">
+   <div class="usa-width-one-sixth">
   <div class="media-left">
     <a href="{{ item.goal }}_{{ item.short }}">
       <img class="media-object" src="{{ site.baseurl }}/{{ item.icon }}" height="100" width="100" alt="">
@@ -51,6 +51,17 @@ permalink: /dashboard/
   </div>
    </div> 
  <div class="usa-width-three-fourths">
+   <div class="usa-grid-full">
+     {% for item in site.data.dashboard.goals %}
+           {% if item.goal == page.goal %}
+                  <div class="panel-heading" data-toggle="tab" id="top">
+                      <h3 class="panel-title">
+                          <span class="badge">Goal {{ page.goal }}</span>
+                      </h3>
+                  </div>
+          {% endif %}
+      {% endfor %}
+   </div>
   <div class="media-body">
       <div class="usa-grid-full">
       <div class="usa-width-one-third">reported status </div><div class="usa-width-one-third">statistics in progress </div><div class="usa-width-one-third">exploring data sources </div>
