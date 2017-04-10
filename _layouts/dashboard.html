@@ -2,10 +2,7 @@
 layout: default
 ---
 {% include breadcrumbs.html %}
-<div class="col-sm-12 col-md-3 sidebar">
-  {% include dashboard/sidebar.html %}
-</div>
-<div class="col-sm-12 col-md-9 main">
+<div class="usa-grid usa-width-one-whole">
   {% if page.tag != intro and page.goal == indicator.goal and page.subgoal == indicator.subgoal and page.indicator == indicator.indicator %}
     {% include dashboard/indicator.html %}
   {% endif %}
