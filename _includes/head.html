@@ -12,6 +12,8 @@
   {% assign theme = site.data.themes | where:'name', theme_name | first %}
   {% if theme and theme.src and theme.src != empty %}
     <link rel="stylesheet" href="{{ theme.src }}">
+  <script src="{{ site.baseurl }}/js/styleguide.js"></script>
+  <script src="{{ site.baseurl }}/js/uswds.min.js"></script>
   {% endif %}
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -27,7 +29,9 @@
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.min.css" >
   <script src="{{ site.baseurl }}/js/jquery-1.11.1.min.js"></script>
   <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
-  {% endif %}
+    <script src="{{ site.baseurl }}/js/styleguide.js"></script>
+  <script src="{{ site.baseurl }}/js/uswds.min.js"></script>
+{% endif %}
 
   {% if site.digital_analytics_program.enabled == true %}
     <!-- US Digital Analytics Program - see https://analytics.usa.gov for data-->
