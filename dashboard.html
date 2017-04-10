@@ -42,12 +42,15 @@ permalink: /dashboard/
         {{ item.short }}
       </button>
       <div id="amendment-b-1" class="usa-accordion-content">
- <div class="media">
+ <div class="media usa-grid-full">
+   <div class="usa-width-one-fourth">
   <div class="media-left">
     <a href="{{ item.goal }}_{{ item.short }}">
       <img class="media-object" src="{{ site.baseurl }}/{{ item.icon }}" height="100" width="100" alt="">
     </a>
   </div>
+   </div> 
+ <div class="usa-width-three-fourths">
   <div class="media-body">
       <div class="usa-grid-full">
       <div class="usa-width-one-third">reported status </div><div class="usa-width-one-third">statistics in progress </div><div class="usa-width-one-third">exploring data sources </div>
@@ -58,7 +61,8 @@ permalink: /dashboard/
       {{ site.data.bootstrap.progress_doing }}{{ doings_percent }}{{ site.data.bootstrap.progress_end }}
       {{ site.data.bootstrap.progress_todo }}{{ todos_percent }}{{ site.data.bootstrap.progress_end }}
     </div>
-      </div>
+    </div>
+   </div>
   </div>
 </div>
 {% endfor %}
