@@ -6,7 +6,7 @@ permalink: /dashboard/
 <h1>Overall Reporting Status</h1>
 
 <h2> Status by Goal</h2>
-
+  <ul class="usa-accordion-bordered">
 {% for item in site.data.dashboard.goals %}
 {% assign todos = 0 %}
 {% assign doings = 0 %}
@@ -35,7 +35,7 @@ permalink: /dashboard/
     {% assign doings_percent = doings | divided_by:issues_total | times:100 %}
     {% assign dones_percent = dones | divided_by:issues_total | times:100 %}
 
-  <ul class="usa-accordion-bordered">
+
     <li>
       <button class="usa-accordion-button"
         aria-expanded="true" aria-controls="amendment-b-1">
@@ -53,48 +53,7 @@ permalink: /dashboard/
         Second Amendment
       </button>
       <div id="amendment-b-2" class="usa-accordion-content">
-        <p>
-        A well regulated Militia, being necessary to the security of a free State, the right of the people to keep and bear Arms, shall not be infringed.
-        </p>
-      </div>
-    </li>
-    <li>
-      <button class="usa-accordion-button"
-          aria-controls="amendment-b-3">
-        Third Amendment
-      </button>
-      <div id="amendment-b-3" class="usa-accordion-content">
-        <p>
-        No Soldier shall, in time of peace be quartered in any house, without the consent of the Owner, nor in time of war, but in a manner to be prescribed by law.
-        </p>
-      </div>
-    </li>
-    <li>
-      <button class="usa-accordion-button"
-        aria-controls="amendment-b-4">
-        Fourth Amendment
-      </button>
-      <div id="amendment-b-4" class="usa-accordion-content">
-        <p>
-        The right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures, shall not be violated, and no Warrants shall issue, but upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.
-        </p>
-      </div>
-    </li>
-    <li>
-      <button class="usa-accordion-button"
-        aria-controls="amendment-b-5">
-        Fifth Amendment
-      </button>
-      <div id="amendment-b-5" class="usa-accordion-content">
-        <p>
-        No person shall be held to answer for a capital, or otherwise infamous crime, unless on a presentment or indictment of a Grand Jury, except in cases arising in the land or naval forces, or in the Militia, when in actual service in time of War or public danger; nor shall any person be subject for the same offence to be twice put in jeopardy of life or limb; nor shall be compelled in any criminal case to be a witness against himself, nor be deprived of life, liberty, or property, without due process of law; nor shall private property be taken for public use, without just compensation.
-        </p>
-      </div>
-    </li>
-  </ul>
-
-
-<div class="media">
+ <div class="media">
   <div class="media-left">
     <a href="{{ item.goal }}_{{ item.short }}">
       <img class="media-object" src="{{ site.baseurl }}/{{ item.icon }}" height="100" width="100" alt="">
@@ -114,3 +73,9 @@ permalink: /dashboard/
   </div>
 </div>
 {% endfor %}
+        </div>
+    </li>
+  </ul>
+
+
+
