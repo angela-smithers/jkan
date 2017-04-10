@@ -52,15 +52,7 @@ permalink: /dashboard/
    </div> 
  <div class="usa-width-three-fourths">
    <div class="usa-grid-full">
-     {% for item in site.data.dashboard.goals %}
-           {% if item.goal == page.goal %}
-                  <div class="panel-heading" data-toggle="tab" id="top">
-                      <h3 class="panel-title">
-                          <span class="badge">Goal {{ page.goal }}</span>
-                      </h3>
-                  </div>
-          {% endif %}
-      {% endfor %}
+     <span class="badge">{{ datasets }}</span>
    </div>
   <div class="media-body">
       <div class="usa-grid-full">
