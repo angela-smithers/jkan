@@ -1,5 +1,7 @@
 .badge {
 float: right; !important }
+.progress {
+  margin-top: 18px; }
 .usa-accordion,
 .usa-accordion-bordered {
   margin-top: 0;
