@@ -47,9 +47,7 @@ permalink: /dashboard/
     </a>
   </div>
   <div class="media-body">
-    <h2>{{ item.short }}</h2>
-    {{ item.title }}
-
+      <div class="usa-grid-one-third">reported status </div><div class="usa-grid-one-third">statistics in progress </div><div class="usa-grid-one-third">exploring data sources </div>
     <div class="progress">
       {{ site.data.bootstrap.progress_done }}{{ dones_percent }}{{ site.data.bootstrap.progress_end}}
       {{ site.data.bootstrap.progress_doing }}{{ doings_percent }}{{ site.data.bootstrap.progress_end }}
