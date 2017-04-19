@@ -38,10 +38,10 @@ permalink: /dashboard/
 
     <li>
       <button class="usa-accordion-button"
-        aria-controls="amendment-b-1">
+        aria-controls="amendment-b-{{ item.short }}">
         {{ item.short }}
       </button>
-      <div id="amendment-b-1" class="usa-accordion-content">
+      <div id="amendment-b-{{ item.short }}" class="usa-accordion-content">
  <div class="media usa-grid-full">
    <div class="usa-width-one-sixth">
   <div class="media-left">
