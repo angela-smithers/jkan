@@ -2,86 +2,86 @@
 - goal: 1
   short: Poverty
   title: End poverty in all its forms everywhere
-  icon: img/goals/1.png
+  icon: img/goals/bw/01.png
 
 - goal: 2
   short: Hunger
   title: End hunger, achieve food security and improved nutrition and promote sustainable agriculture
-  icon: img/goals/2.png
+  icon: img/goals/bw/02.png
 
 - goal: 3
   short: Health
   title: Ensure healthy lives and promote well-being for all at all ages
-  icon: img/goals/3.png
+  icon: img/goals/bw/03.png
 
 - goal: 4
   short: Education
   title: Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all
-  icon: img/goals/4.png
+  icon: img/goals/bw/04.png
 
 - goal: 5
   short: Equality
   title: Achieve gender equality and empower all women and girls
-  icon: img/goals/5.png
+  icon: img/goals/bw/05.png
 
 - goal: 6
   short: Water
   title: Ensure availability and sustainable management of water and sanitation for all
-  icon: img/goals/6.png
+  icon: img/goals/bw/06.png
 
 - goal: 7
   short: Energy
   title: Ensure access to affordable, reliable, sustainable and modern energy for all
-  icon: img/goals/7.png
+  icon: img/goals/bw/07.png
 
 - goal: 8
   short: Economy
   title: Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
-  icon: img/goals/8.png
+  icon: img/goals/bw/08.png
 
 - goal: 9
   short: Infrastructure
   title: Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation
-  icon: img/goals/9.png
+  icon: img/goals/bw/09.png
 
 - goal: 10
   short: Inequality
   title: Reduce inequality within and among countries
-  icon: img/goals/10.png
+  icon: img/goals/bw/10.png
 
 - goal: 11
   short: Settlements
   title: Make cities and human settlements inclusive, safe, resilient and sustainable
-  icon: img/goals/11.png
+  icon: img/goals/bw/11.png
 
 - goal: 12
   short: Consumption
   title: Ensure sustainable consumption and production patterns
-  icon: img/goals/12.png
+  icon: img/goals/bw/12.png
 
 - goal: 13
   short: Climate
   title: Take urgent action to combat climate change and its impacts
-  icon: img/goals/13.png
+  icon: img/goals/bw/13.png
 
 - goal: 14
   short: Oceans
   title: Conserve and sustainably use the oceans, seas and marine resources for sustainable development
-  icon: img/goals/14.png
+  icon: img/goals/bw/14.png
 
 - goal: 15
   short: Ecosystems
   title: Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss
-  icon: img/goals/15.png
+  icon: img/goals/bw/15.png
 
 - goal: 16
   short: Society
   title: Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
-  icon: img/goals/16.png
+  icon: img/goals/bw/16.png
 
 - goal: 17
   short: Partnerships
   title: Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
-  icon: img/goals/17.png
+  icon: img/goals/bw/17.png
 
 ---
