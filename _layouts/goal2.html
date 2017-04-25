@@ -1,6 +1,14 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html>
 
-{% include header.html %}
+  {% include head.html %}
+
+  <body>
+    
+
+      {% include header.html %}
+
+
 
       <div id="main" class="main-content initiative-content">
 
@@ -9,12 +17,7 @@
             <div class="usa-grid">
                 <div class="usa-banner-content">
                   <h2 class="goal-heading">
-                    {% if page.lang == 'en' %}
-                        {% assign sdg_goals = site.data.sdg_goals %}
-                    {% else %}
-                        {% assign sdg_goals = site.data[page.lang].sdg_goals %}
-                    {% endif %}
-
+                    {% assign sdg_goals = site.data.sdg_goals %}
                     {% for goals in sdg_goals %}
 
                       {% assign page_goal_num = page.sdg_goal | plus:0 %}
@@ -33,17 +36,14 @@
                 </div>
             </div>
         </section>
-        <div class="usa-width-one-sixth"></div>
-        <div class="usa-width-five-sixths">    
+
         <div class="usa-grid initiative-description">
+              <div class="usa-width-one-sixth"></div>
+              <div class="usa-width-five-sixths">
       {{ content }}
 
-{% if page.lang == 'en' %}
-    {% assign sdg_indicators = site.data.sdg_indicator_metadata %}
-{% else %}
-    {% assign sdg_indicators = site.data[page.lang].sdg_indicator_metadata %}
-{% endif %}
-
+{% assign sdg_goals = site.data.sdg_goals %}
+{% assign sdg_indicators = site.data.sdg_indicator_metadata %}
 {% assign sdg_indicator_pages = site.indicators %}
 
 
@@ -58,7 +58,7 @@
 
   {% if sdg_indicator_page.indicator == indicators.indicator_id %}
 
-    {% if sdg_indicator_page.graph != "" and sdg_indicator_page.graph != nil %}
+    {% if sdg_indicator_page.graph == 'longitudinal' %}
       {% assign graph_type = sdg_indicator_page.graph %}
       {% assign graph_set = 'graph ' %}
     {% else %}
@@ -80,4 +80,8 @@
       
     </div>
     
-{% include footer.html %}
+    {% include scripts.html %}
+    
+  </body>
+
+</html>
