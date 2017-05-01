@@ -4,7 +4,12 @@ layout: dashboard
 permalink: /dashboard/
 ---
 <h1>Overall Reporting Status</h1>
-
+   <div class="usa-width-one-whole">
+      <div class="progress" style="margin-top: 18px;">
+      {{ site.data.bootstrap.progress_done }}{{ dones_percent }}{{ site.data.bootstrap.progress_end}}
+     </div>
+</div>
+        
 <h2> Status by Goal</h2>
   <ul class="usa-accordion-bordered">
 {% for item in site.data.dashboard.goals %}
